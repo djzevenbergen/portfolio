@@ -66,9 +66,7 @@ body {
 }
 
 .faves img {
-  height: 100px; 
-  width: 80px;
-  padding: 10px;
+
 }
 
 .faves ol{
@@ -96,6 +94,12 @@ body {
   padding-top: 0%;
   margin-top: 5%;
 
+}
+
+.fave {
+  height: 100px; 
+  width: 80px;
+  padding: 10px;
 }
 
 .project img {
