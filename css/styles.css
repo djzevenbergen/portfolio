@@ -160,3 +160,7 @@ body {
   background-color: peru;
   border: none;
 }
+
+script {
+  display: none;
+}
