@@ -145,9 +145,9 @@ body {
   }
 }
 
-body {
+.partyBody {
   -webkit-animation: bgcolor 20s infinite;
-  animation: bgcolor 50s infinite;
+  animation: bgcolor 10s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }

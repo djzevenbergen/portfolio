@@ -3,26 +3,32 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
     <title>DJ Zevenbergen Portfolio</title>
   </head>
-  <body>
+  <body id='wholeBody'>
     <div class="container">
-      <div class="ope">
+      <div id="ope">
       <div class="row" id="row1">
         <div class="col-lg-12">
           <div class="jumbotron" id="headbox">
             <h1>DJ Zevenbergen</h1>
             <p>coding and music</p>
             <button type="button" class="btn btn-primary" id="partyButton">Party Mode</button>
+
+
             
-            <script>
-              
-                document.getElementById("demo").innerHTML = "Hello JavaScript!";
-                document.getElementById("demo").style.fontSize = "25px";
-                document.getElementById("demo").style.color = "red";
-                document.getElementById("demo").style.backgroundColor = "yellow";
-              
+            <script type="text/javascript">
+              document.getElementById("partyButton").addEventListener("click", function(){
+                
+                  $("body").toggleClass("partyBody");
+                  $("#ope").toggleClass("ope");
+                  });
+
             </script>
+
+
+
             <p id="demo"></p>
           </div>
         </div>
