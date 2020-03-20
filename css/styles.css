@@ -1,10 +1,58 @@
 #headbox {
-  color: black;
-  margin: 15px;
+  color: purple;
   border: 5px solid green;
   padding: 4px;
   background-color: skyblue;
   text-align: center;
+
 }
 
+#row1 {
+  margin: 15px;
+  padding: 4px;
+}
 
+.toppic {
+  height: 160px; 
+  width: 125px;
+
+  float:left;
+}
+
+body {
+  background-color: honeydew;
+}
+
+.panel {
+  color: purple;
+}
+
+.panel h2 {
+  color: purple;
+}
+
+.panel > .panel-heading {
+  background-color: cyan;
+  border-bottom-width: 5px;
+  border-bottom-color: blue;
+}
+
+.panel-default {
+  background-color: lightcyan;
+  border: 5px solid blue;
+}
+
+.panel-body p {
+  padding-left: 10px;
+}
+
+.project {
+  width: 300px;
+  float: left;
+  border: 2px solid black;
+
+}
+
+.project p {
+  text-align: center;
+}
