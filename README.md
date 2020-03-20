@@ -15,7 +15,6 @@ _This is a basic HTML webpage that uses Bootstrap's grid system and panels to mo
 * Open index.html in browser
 * If it doesn't work, it may require having Bootstrap 3.3.7 CSS file in CSS folder and jQuery 3.4.1 JS file in JS folder
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Access to Website
 
