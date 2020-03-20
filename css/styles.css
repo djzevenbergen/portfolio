@@ -19,6 +19,10 @@
   float:left;
 }
 
+.projpic {
+
+}
+
 body {
   background-color: honeydew;
 }
@@ -28,10 +32,14 @@ body {
 }
 
 .panel h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 800;
   color: purple;
 }
 
 .panel > .panel-heading {
+  text-align: center;
   background-color: cyan;
   border-bottom-width: 5px;
   border-bottom-color: blue;
@@ -44,15 +52,46 @@ body {
 
 .panel-body p {
   padding-left: 10px;
+  float: inherit;
+}
+
+.panel-body ul {
+  float: right;
+  list-style: disc;
 }
 
 .project {
-  width: 300px;
-  float: left;
+  align-content: center;
+  width: 164px;
+  float: none;
   border: 2px solid black;
 
 }
 
 .project p {
   text-align: center;
+  padding-left: 0%;
 }
+.project h3 {
+  font-size: small;
+  text-align: center;
+  line-height: normal;
+  padding-top: 0%;
+  margin-top: 5%;
+
+}
+
+.project img {
+  padding: 0%;
+  margin: 0%;
+  float: none;
+  height: 125px;
+  width: 161px;
+  border: 1px solid black;
+  border-left: none;
+}
+
+#roww {
+  align-items: center;
+}
+
