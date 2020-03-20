@@ -58,8 +58,9 @@ body {
   list-style: disc;
 }
 
-#facepicpanel {
+.panelcenter {
   text-align: center;
+  align-items: center;
 }
 
 
@@ -110,3 +111,6 @@ body {
   align-items: center;
 }
 
+.leftfloat {
+  float: left;
+}
