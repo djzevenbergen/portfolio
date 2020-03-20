@@ -15,8 +15,7 @@
 .toppic {
   height: 160px; 
   width: 125px;
-
-  float:left;
+  text-align: center;
 }
 
 .projpic {
@@ -53,6 +52,8 @@ body {
 .panel-body p {
   padding-left: 10px;
   float: inherit;
+  text-align: center;
+  align-items: center;
 }
 
 .panel-body ul {
