@@ -61,6 +61,22 @@ body {
   list-style: disc;
 }
 
+#facepicpanel {
+  text-align: center;
+}
+
+.faves img {
+  height: 100px; 
+  width: 80px;
+  padding: 10px;
+}
+
+.faves ol{
+  padding-left: 14px;
+  text-align: justify;
+  font-size: 15px;
+  float: inherit;
+}
 .project {
   align-content: center;
   width: 164px;
