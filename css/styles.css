@@ -1,8 +1,8 @@
 #headbox {
-  color: purple;
-  border: 5px solid green;
+  color: darkblue;
+  border: 5px solid orangered;
   padding: 4px;
-  background-color: skyblue;
+  background-color: lightgoldenrodyellow;
   text-align: center;
 
 }
@@ -20,30 +20,30 @@
 
 
 body {
-  background-color: honeydew;
+  background-color: paleturquoise;
 }
 
 .panel {
-  color: purple;
+  color: darkblue;
 }
 
 .panel h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   font-weight: 800;
-  color: purple;
+  color: darkblue;
 }
 
 .panel > .panel-heading {
   text-align: center;
-  background-color: cyan;
+  background-color: lightgoldenrodyellow;
   border-bottom-width: 5px;
-  border-bottom-color: blue;
+  border-bottom-color: orangered;
 }
 
 .panel-default {
-  background-color: lightcyan;
-  border: 5px solid blue;
+  background-color: rgba(181, 209, 136, 0.671);
+  border: 5px solid orangered;
 }
 
 .panel-body p {
